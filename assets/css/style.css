@@ -981,7 +981,7 @@ button, a { transition: var(--transition); }
 
   .hero-banner {
     display: block;
-    background: url("/assets/images/hero-bg.jpg") no-repeat;
+    background: url("https://carindia.in/wp-content/uploads/2018/04/BMW-330i-M-Sport-web-1.jpg") no-repeat;
     background-size: cover;
     background-position: left;
     position: absolute;
