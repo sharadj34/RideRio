@@ -674,7 +674,7 @@ button, a { transition: var(--transition); }
   overflow: hidden;
 }
 
-.blog-card .card-banner a:first-child { height: 100%; }
+.blog-card .card-banner a:first-child { height: 120%; }
 
 .blog-card .card-banner img {
   height: 100%;
@@ -981,7 +981,7 @@ button, a { transition: var(--transition); }
 
   .hero-banner {
     display: block;
-    background: url("https://carindia.in/wp-content/uploads/2018/04/BMW-330i-M-Sport-web-1.jpg") no-repeat;
+    background: url("https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/X3/9776/1680242353464/front-left-side-47.jpg?tr=w-456") no-repeat;
     background-size: cover;
     background-position: left;
     position: absolute;
