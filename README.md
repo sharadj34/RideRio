@@ -1,16 +1,73 @@
-# riderio
+# RideRio
 
-A new Flutter project.
+A modern ride-sharing application built with Flutter, designed to provide seamless transportation services in Rio de Janeiro.
+
+## Features
+
+- Real-time ride booking and tracking
+- Secure payment integration
+- Driver and passenger profiles
+- Rating and review system
+- Location-based services
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (latest version)
+- Dart SDK (latest version)
+- Android Studio / VS Code
+- Android SDK / Xcode (for iOS development)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/rid rio.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd riderio
+```
+
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app:
+```bash
+flutter run
+```
+
+## Project Structure
+
+```
+lib/
+├── main.dart
+├── screens/
+├── widgets/
+├── models/
+├── services/
+├── utils/
+└── constants/
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support, email support@riderio.com or join our Slack channel.
+
+## Acknowledgments
+
+- Flutter team for the amazing framework
+- Google Maps API
+- Firebase services
