@@ -57,17 +57,3 @@ lib/
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For support, email support@riderio.com or join our Slack channel.
-
-## Acknowledgments
-
-- Flutter team for the amazing framework
-- Google Maps API
-- Firebase services
