@@ -1,6 +1,6 @@
 # RideRio
 
-A modern ride-sharing application built with Flutter, designed to provide seamless transportation services to users.
+RideRio is a self-drive car rental app that allows users to conveniently rent cars for personal use, offering flexible booking, affordable pricing, and a wide range of vehicles.
 
 ## Features
 
