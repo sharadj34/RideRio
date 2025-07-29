@@ -1,6 +1,6 @@
 # RideRio
 
-A modern ride-sharing application built with Flutter, designed to provide seamless transportation services in Rio de Janeiro.
+A modern ride-sharing application built with Flutter, designed to provide seamless transportation services to users.
 
 ## Features
 
