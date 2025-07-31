@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.blue,
           primary: Colors.blue,
           secondary: Colors.blueAccent,
-          background: Colors.white,
           surface: Colors.white,
           onSurface: Colors.grey[800],
         ),
@@ -31,11 +30,10 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
         scaffoldBackgroundColor: Colors.white,
-        cardTheme: CardTheme(
-          color: Colors.white,
+        cardTheme: const CardThemeData(
           elevation: 2,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: BorderRadius.all(Radius.circular(10)),
           ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
@@ -85,22 +83,10 @@ class _MainScreenState extends State<MainScreen> {
         selectedItemColor: Colors.blue,
         unselectedItemColor: Colors.grey,
         items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.explore),
-            label: 'Explore',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.info),
-            label: 'About',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.people),
-            label: 'Team',
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.explore), label: 'Explore'),
+          BottomNavigationBarItem(icon: Icon(Icons.info), label: 'About'),
+          BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Team'),
         ],
       ),
     );

@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget _buildCarCard(
+    Widget buildCarCard(
       String name,
       String year,
       String capacity,
@@ -144,7 +144,7 @@ class HomeScreen extends StatelessWidget {
       );
     }
 
-    Widget _buildStepCard(String title, String description, IconData icon) {
+    Widget buildStepCard(String title, String description, IconData icon) {
       return Container(
         margin: const EdgeInsets.only(bottom: 15),
         padding: const EdgeInsets.all(15),
@@ -315,7 +315,7 @@ class HomeScreen extends StatelessWidget {
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
-                        _buildCarCard(
+                        buildCarCard(
                           'Nissan Kicks 2021',
                           '2021',
                           '5 People',
@@ -324,7 +324,7 @@ class HomeScreen extends StatelessWidget {
                           'Manual',
                           '₹600',
                         ),
-                        _buildCarCard(
+                        buildCarCard(
                           'BMW 520D 2016',
                           '2016',
                           '4 People',
@@ -333,7 +333,7 @@ class HomeScreen extends StatelessWidget {
                           'Automatic',
                           '₹950',
                         ),
-                        _buildCarCard(
+                        buildCarCard(
                           'KIA Sonet',
                           '2021',
                           '4 People',
@@ -364,22 +364,22 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  _buildStepCard(
+                  buildStepCard(
                     'Create a profile',
                     'Sign up within few seconds and enjoy your ride.',
                     Icons.person_add,
                   ),
-                  _buildStepCard(
+                  buildStepCard(
                     'Tell us what car you want',
                     'It\'s our duty to arrange whichever car you want to drive.',
                     Icons.directions_car,
                   ),
-                  _buildStepCard(
+                  buildStepCard(
                     'Match with seller',
                     'Seller\'s details will be provided, contact them and get the deal done.',
                     Icons.handshake,
                   ),
-                  _buildStepCard(
+                  buildStepCard(
                     'Make a deal',
                     'Advance payment and security deposit is necessary for a strong deal.',
                     Icons.payment,

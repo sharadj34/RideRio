@@ -6,7 +6,7 @@ class ExploreCarsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget _buildCarCard(
+    Widget buildCarCard(
       String name,
       String year,
       String capacity,
@@ -122,7 +122,7 @@ class ExploreCarsScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: [
-          _buildCarCard(
+          buildCarCard(
             'Nissan Kicks 2021',
             '2021',
             '5 People',
@@ -131,7 +131,7 @@ class ExploreCarsScreen extends StatelessWidget {
             'Manual',
             '₹600',
           ),
-          _buildCarCard(
+          buildCarCard(
             'BMW 520D 2016',
             '2016',
             '4 People',
@@ -140,7 +140,7 @@ class ExploreCarsScreen extends StatelessWidget {
             'Automatic',
             '₹950',
           ),
-          _buildCarCard(
+          buildCarCard(
             'KIA Sonet',
             '2021',
             '4 People',
@@ -149,7 +149,7 @@ class ExploreCarsScreen extends StatelessWidget {
             'Manual',
             '₹800',
           ),
-          _buildCarCard(
+          buildCarCard(
             'Mahindra XUV500',
             '2015',
             '4 People',
@@ -158,7 +158,7 @@ class ExploreCarsScreen extends StatelessWidget {
             'Automatic',
             '₹620',
           ),
-          _buildCarCard(
+          buildCarCard(
             'Hyundai Verna',
             '2015',
             '4 People',
@@ -167,7 +167,7 @@ class ExploreCarsScreen extends StatelessWidget {
             'Manual',
             '₹530',
           ),
-          _buildCarCard(
+          buildCarCard(
             'Mahindra Thar',
             '2021',
             '4 People',
